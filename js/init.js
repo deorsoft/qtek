@@ -13,8 +13,7 @@
 
 $(document).ready(function(){
   $('.carousel').carousel(
-    shift: 300,
-    numVisible: 2
+
   );
 });
 
