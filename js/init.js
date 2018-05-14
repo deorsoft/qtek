@@ -17,15 +17,3 @@ $(document).ready(function(){
   );
 });
 
-
-var instances = M.Carousel.init({
-    fullWidth: true,
-    autoplay: true,
-    numVisible: 3
-  });
-// Or with jQuery
-
-$('.carousel.carousel-slider').carousel({
-  fullWidth: true
-});
-    
