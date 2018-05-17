@@ -1,7 +1,7 @@
 body{
   font-family: 'Comfortaa', cursive;
   color: #FFFFFF;
-  background-color: #0093FF;
+  background-color: red;
 }
 
 
@@ -10,4 +10,9 @@ body{
   margin: 0 auto;
   justify-content: center;
   border: 0;
+}
+
+#servDetalle{
+  max-height:720px;
+  height: 100%;
 }
