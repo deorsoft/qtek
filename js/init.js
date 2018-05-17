@@ -37,16 +37,9 @@ $(document).ready(function(){
     $('.carousel').carousel('prev');
   });
 });
-{
-
-}
 
 
 
-$('.carousel').carousel({
-  numVisible: 3
-});
-     
 // Or with jQuery
 
 $('.carousel.carousel-slider').carousel({
@@ -54,5 +47,7 @@ $('.carousel.carousel-slider').carousel({
   indicators: true,
   noWrap: true,
 });
+     
+    
      
     
