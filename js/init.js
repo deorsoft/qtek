@@ -9,45 +9,15 @@
 
         
 
-
 // Or with jQuery
 
 $(document).ready(function(){
-  $('.carousel').carousel();
-
-
+  $('.carousel').carousel( );
   
-  //Funcion para el Autoplay
+  // function para autoplay
 
-
-
-/*   setInterval(function(){
+  setInterval(function(){
     $('.carousel').carousel('next');
-  }, 2000); */
+  }, 2000);
 
-  //Next Slide Function
-
-  $('.next').click(function(){
-    $('.carousel').carousel('next');
-  });
-
-  //Prev Slide Function
-
-  $('.prev').click(function(){
-    $('.carousel').carousel('prev');
-  });
 });
-
-
-
-// Or with jQuery
-
-$('.carousel.carousel-slider').carousel({
-  fullWidth: true,
-  indicators: true,
-  noWrap: true,
-});
-     
-    
-     
-    
